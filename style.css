@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.menu a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #333;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.hero {
+  padding: 50px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  gap: 50%;
+}
+.honda{
+  border: 2px solid red;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background: linear-gradient( to left, #B90160, #2E3192);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.features {
+  padding: 20px;
+  text-align: center;
+}
+
+.feature-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .feature-cards {
+    flex-direction: column;
+  }
+
+  .card {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 30px;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu a {
+    margin: 5px 0;
+  }
+}
+.honda{
+  background-color: white;
+  border: 2px solid ;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 300px;
+  text-align: center;
+  width: 436px;
+  height: 200px;
+}
+features cardss{
+  padding: 20px;
+  text-align: center;
+}
+.fifa{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: linear-gradient(#D4145A, #2E3192);
+}
